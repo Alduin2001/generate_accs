@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Юзерс</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="forms-content">
+        <form method="POST" id="generate-form">
+            <input type="number" max="10" placeholder="Количество сотрудников"/>
+            <input type="submit" value="Сгенерировать аккаунты"/>
+        </form>
+        <form method="POST">
+            <input type="submit" value="Добавить"/>
+            <input type="button" onclick="PrintAccs()" value="Печатать"/>
+            <input type="button" onclick="remCh()" value="Очистить"/>
+        </form>
+        <form method="POST" class="accounts">
+
+        </form>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
